@@ -1,0 +1,83 @@
+body{
+    background-color: white;
+    position: relative;
+}
+
+
+.raios{
+    width: 80px;
+    position: absolute;
+}
+
+.menu{
+    margin-top: 00px;
+    list-style-type: none;
+    margin-left: 00px;
+    display: flex;
+    justify-content: end;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    padding:10px 35px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.linhab{
+    height: 10px;
+    margin-top: 170px;
+    margin-left: -1800px;
+    position: absolute;
+}
+
+.linhal{
+    position: absolute;
+    height: 800px;
+    top: 10px;
+    right: 10px;
+}
+
+.raiosb{
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 1710px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.container{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    padding:10px 180px;
+    display: inline-block; 
+}
+
+.col img{
+    height: 200px;
+}
+
+.col h1{
+    align-items: center;
+    color: #3B0273;
+}
+
+.col h2{
+    font-size: 16px;
+}
